@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "17ca17a6a60f1495",
+    "type": "split",
+    "children": [
+      {
+        "id": "d640bd65fdc4fc06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c32598731e67ac58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-07-11-new-wip.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-11-new-wip"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b14a6718f0e9f7ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6ced0668e76bb21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0043157489a1fc5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cf02596257f6e559",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d271c4cf9e8712d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "41ea9e615d702bfd",
+    "type": "split",
+    "children": [
+      {
+        "id": "501b4712d5dcc1ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a16fa06f405e024e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "3384df7dc1750e35",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "7830f6fa1769349b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "77e43c88846bd711",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "c32598731e67ac58",
+  "lastOpenFiles": [
+    "_site/styles.css.map",
+    "_site/new-wip/index.html",
+    "_site/new-wip",
+    "_site/new-builds-1/index.html",
+    "_site/new-builds-1",
+    "_posts/2025-07-11-new-builds.md",
+    "_posts/2025-07-11-new-wip.md",
+    "_site/projects/index.html",
+    "_site/projects",
+    "projects.html",
+    "journal.html",
+    "projects",
+    "_site/new-builds/index.html",
+    "Welcome.md",
+    "_site/assets/aesthetics-of-climbing/rock9.jpg",
+    "_site/assets/aesthetics-of-climbing/rock8.jpg",
+    "_site/assets/aesthetics-of-climbing/rock7.jpg",
+    "_site/assets/aesthetics-of-climbing/rock6.jpg",
+    "_site/assets/aesthetics-of-climbing/rock5.webp",
+    "_site/assets/aesthetics-of-climbing/rock4.webp",
+    "_site/assets/aesthetics-of-climbing/rock3.jpg",
+    "_site/assets/aesthetics-of-climbing/rock2.jpg",
+    "_site/assets/aesthetics-of-climbing/rock1.jpg",
+    "_site/assets/aesthetics-of-climbing/jump-king.jpg",
+    "_site/Welcome.md",
+    "README.md",
+    "LICENSE.md",
+    "_templates/post.md",
+    "_site/LICENSE.md",
+    "_site/README.md",
+    "_posts/2025-07-11-25.md",
+    "_posts/2025-06-16-living-well.md",
+    "_posts/2025-06-16-ideas.md",
+    "_posts/2025-06-16-climbing.md",
+    "_posts/2025-05-23-infinite-gameplay-loops.md",
+    "_posts/2025-05-18-conviction.md",
+    "_posts/2025-05-13-notes-on-climbing.md",
+    "_posts/2025-04-21-if-you-listen-closely.md",
+    "_posts/2025-04-12-hands.md",
+    "_posts/2025-04-09-consuming.md",
+    "_posts/2025-04-09-articulation.md",
+    "_posts/2025-04-06-yesterday.md",
+    "_posts/2025-04-05-sketching.md",
+    "_posts/2025-04-04-ganbatte.md",
+    "_posts/2025-04-02-speed.md",
+    "_posts/2025-02-23-instant-noodles.md"
+  ]
+}

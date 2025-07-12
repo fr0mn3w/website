@@ -1,0 +1,112 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+.container {
+  max-width: 75%;
+  padding-left: calc(var(--spacer-2) + 4rem);  // Add extra left padding
+  padding-right: var(--spacer-2);
+  margin-left: 0;
+  margin-right: auto;
+  
+  @media (max-width: 768px) {
+    max-width: 90%;
+    padding-left: calc(var(--spacer) + 1rem);   // Less extra padding on mobile
+    padding-right: var(--spacer);
+  }
+}
+
+:root {
+  --font-size-base: 1rem;
+  --font-size-small: 0.9rem;
+  --font-size-footer: var(--font-size-base);
+}
+
+// Header styles
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  
+  a {
+    text-decoration: none;
+    color: var(--body-color);
+  }
+}
+
+// Footer styles
+footer {
+  margin-top: calc(var(--spacer-3) * 2);
+  margin-bottom: calc(var(--spacer-3) * 2);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: flex-start;    // Left-align footer content
+  align-items: center;
+  gap: 2rem;                      // Space between copyright and social links
+  width: 100%;
+  
+  // Alternative: if you want social links on the far right
+  // justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  
+  // If using space-between above, uncomment this to push social links right:
+  // margin-left: auto;
+}
+
+.social-link {
+  color: var(--body-color);
+  text-decoration: none;
+  
+  &:hover {
+    color: var(--link-hover-color);
+  }
+}
+
+.footer-copyright {
+  font-size: 1.25rem;
+  line-height: 0.8;
+}
+
+// Post list styles
+.post-list-container {
+  max-width: 75%;              // Match main container width
+  margin: 0;                   // Left-align (remove centering)
+  margin-right: auto;          // Auto right margin
+  
+  @media (max-width: 768px) {
+    max-width: 90%;            // Match container responsive behavior
+  }
+}
+
+.post-item {
+  margin-bottom: 0.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
+  .post-title {
+    a {
+      text-decoration: none;
+      color: var(--body-color);
+      
+      &:hover {
+        color: var(--link-hover-color);
+      }
+    }
+  }
+}

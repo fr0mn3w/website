@@ -1,0 +1,42 @@
+# Setup
+title: "Tommy Trinh"                   # The title of your site
+description: "天"   # A brief description of your site
+url: "https://tommytrinh.me"              # Your site's full URL
+baseurl: ""                                # Leave empty if your site is at root
+image: "/assets/images/garden.jpg"          # Default share image path
+author: "Tommy Trinh"                        # Your name
+
+# Assets
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# About/contact
+author:
+  name: "Tommy Trinh"
+  url: "https://twitter.com/tommytrxnh"
+  email: "tommytrinh1@gmail.com"
+
+# Custom vars
+version: 3.0.0
+
+
+plugins:
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-feed  
+
+# Markdown Processing
+markdown: kramdown
+kramdown:
+  footnote_backlink: "↩"
+
+#Slug adjustment
+permalink: /:title/
+
+# Add these RSS-specific settings
+feed:
+  title: "Tommy Trinh"
+  description: "天"
+  posts_limit: 10  # Number of posts to include in the feed
+  future: true

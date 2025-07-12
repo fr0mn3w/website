@@ -1,0 +1,32 @@
+.gallery-grid {
+  max-width: 48rem;
+  margin: 0 auto;
+  columns: 3;
+  column-gap: var(--spacer);
+  
+  @media (max-width: 768px) {
+      columns: 2; // Switch to 2 columns on tablets
+  }
+  
+  @media (max-width: 480px) {
+      columns: 1; // Single column on mobile
+  }
+}
+
+.gallery-item {
+  margin-bottom: var(--spacer);
+  break-inside: avoid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-width: 400px;
+  display: block;
+  filter: contrast(80%) brightness(80%); // Combined filters
+  
+}
