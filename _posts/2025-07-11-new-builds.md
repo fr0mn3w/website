@@ -5,4 +5,9 @@ description:
 date: 2025-07-11
 tags: project
 ---
-test
+Test. This is a test sentence.
+
+{% include photos.html folder="new-builds" images="11725.jpeg" %}
+
+
+

@@ -110,6 +110,77 @@ mark {
   color: var(--body-bg);
 }
 
+// Simple photo layouts
+.photo-group {
+  margin: 2rem 0;
+  
+  .photo-item {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: var(--border-radius);
+      margin-bottom: 1rem;
+    }
+  }
+  
+  // Grid layout (default)
+  &.grid {
+    display: grid;
+    gap: 1rem;
+    
+    // Auto-fit based on number of images
+    &:has(.photo-item:nth-child(2):not(.photo-item:nth-child(3))) {
+      grid-template-columns: 1fr 1fr; // 2 images
+    }
+    
+    &:has(.photo-item:nth-child(3):not(.photo-item:nth-child(4))) {
+      grid-template-columns: repeat(3, 1fr); // 3 images
+    }
+    
+    &:has(.photo-item:nth-child(4)) {
+      grid-template-columns: repeat(2, 1fr); // 4+ images in 2 columns
+    }
+    
+    // Mobile responsive
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr !important;
+    }
+  }
+  
+  // Side-by-side layout
+  &.side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  // Row layout (horizontal scroll on mobile)
+  &.row {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    
+    .photo-item {
+      flex: 0 0 300px;
+      
+      @media (max-width: 768px) {
+        flex: 0 0 250px;
+      }
+    }
+  }
+  
+  // Single column
+  &.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
 //Video handling
 .video-wrapper {
   position: relative;
