@@ -52,19 +52,6 @@
   --spacer-3: calc(var(--spacer) * 3);
 }
 
-// Dark theme
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --body-color: #F9F9F9;
-    --body-bg: #1a1a1a;
-    --heading-color: #FFFFFF;
-    --link-color:#F9F9F9;
-    --link-hover-color: #B4B4B4;
-    --border-color: #F9F9F9;
-    --code-bg: var(--gray-900);
-  }
-}
-
 :root[data-theme="dark"] {
   --body-color: #F9F9F9;
     --body-bg: #1a1a1a;

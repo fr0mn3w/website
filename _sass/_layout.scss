@@ -49,28 +49,36 @@ footer {
   align-items: center;
   gap: 2rem;                      // Space between copyright and social links
   width: 100%;
+  flex-wrap: nowrap;              // Prevent wrapping
   
-  // Alternative: if you want social links on the far right
-  // justify-content: space-between;
+  @media (max-width: 768px) {
+    gap: 1rem;                    // Smaller gap on mobile
+    font-size: 0.9rem;            // Slightly smaller text
+  }
 }
 
 .footer-right {
   display: flex;
   align-items: baseline;
   gap: 0.25rem;
+  flex-shrink: 0;                 // Prevent shrinking
 }
 
 .social-links {
   display: flex;
   gap: 1rem;
+  flex-shrink: 0;                 // Prevent social links from shrinking
+  white-space: nowrap;            // Keep text on one line
   
-  // If using space-between above, uncomment this to push social links right:
-  // margin-left: auto;
+  @media (max-width: 768px) {
+    gap: 0.75rem;                 // Smaller gaps between links
+  }
 }
 
 .social-link {
   color: var(--body-color);
   text-decoration: none;
+  flex-shrink: 0;                 // Prevent individual links from shrinking
   
   &:hover {
     color: var(--link-hover-color);
