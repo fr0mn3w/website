@@ -85,13 +85,17 @@ mark {
 // Add to your _sass/base.scss
 .video-container {
   margin: 2rem 0;
-  text-align: center;
+  width: 100%;
+  text-align: left;        // Left-align the container
   
   video {
-    max-width: 100%;
-    height: auto;
+    width: 100%;           // Take full width of container
+    max-width: 600px;      // Set universal max width (adjust this value)
+    height: auto;          // Maintain aspect ratio
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: block;        // Block display for consistent sizing
+    margin: 0;             // Remove auto margin (was centering)
   }
   
   .video-caption {
@@ -99,26 +103,19 @@ mark {
     font-size: 0.9rem;
     color: var(--gray-600);
     font-style: italic;
+    text-align: left;      // Left-align caption too
+    max-width: 600px;      // Match video width
   }
-}
-
-// Keep your existing video-wrapper for embeds
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin: 2rem 0;
-  border-radius: var(--border-radius);
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: var(--border-radius);
+  
+  // Responsive behavior
+  @media (max-width: 768px) {
+    video {
+      max-width: 100%;     // Full width on mobile
+    }
+    
+    .video-caption {
+      max-width: 100%;
+    }
   }
 }
 
