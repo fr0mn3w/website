@@ -271,34 +271,35 @@ mark {
     gap: 2rem;
     
     .media-item {
-      margin-bottom: 0;
+      margin-bottom: 0;      // Remove margin since gap handles spacing
       
       img, video {
         width: 100%;
         height: auto;
         object-fit: contain;
+        margin-bottom: 0;    // Also remove any margin from the media itself
       }
     }
     
     // Fixed width options
     &.width-400 {
       width: 400px;
-      margin: 2rem 0;
+      margin: 2rem 0;        // Left-aligned instead of centered
     }
     
     &.width-500 {
       width: 500px;
-      margin: 2rem 0;
+      margin: 2rem 0;        // Left-aligned instead of centered
     }
     
     &.width-600 {
       width: 600px;
-      margin: 2rem 0;
+      margin: 2rem 0;        // Left-aligned instead of centered
     }
     
     &.width-800 {
       width: 800px;
-      margin: 2rem 0;
+      margin: 2rem 0;        // Left-aligned instead of centered
     }
     
     // Responsive behavior for fixed widths
