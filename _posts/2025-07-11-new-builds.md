@@ -18,3 +18,21 @@ A multidisciplinary hackathon that combines intensive project development with n
    file="new builds ring.mp4"
    autoplay=true 
    loop=true %}
+
+{% include photos.html 
+   folder="new-builds"
+   file="new builds (1).jpg"
+   autoplay=true 
+   loop=true %}
+
+{% include photos.html 
+   folder="new-builds"
+   file="new builds (2).jpg"
+   autoplay=true 
+   loop=true %}
+
+{% include photos.html 
+   folder="new-builds"
+   file="new builds (3).jpg"
+   autoplay=true 
+   loop=true %}
