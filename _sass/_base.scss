@@ -118,6 +118,67 @@ mark {
   }
 }
 
+// Add to your _sass/base.scss or create _sass/media.scss
+.media-group {
+  margin: 2rem 0;
+  
+  .media-item {
+    margin-bottom: 2rem;
+    
+    img, video {
+      width: 100%;
+      height: auto;
+      border-radius: var(--border-radius);
+      display: block;
+    }
+    
+    video {
+      max-width: 600px; // Match your video sizing
+    }
+    
+    .media-caption {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--gray-600);
+      font-style: italic;
+      text-align: left;
+    }
+  }
+  
+  // Column layout (default - stacked vertically)
+  &.column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    .media-item {
+      margin-bottom: 0; // Remove since gap handles spacing
+    }
+  }
+  
+  // Grid layout
+  &.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  // Side-by-side (2 columns)
+  &.side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
 // Footnotes styles
 .footnotes {
   margin-top: 3rem;

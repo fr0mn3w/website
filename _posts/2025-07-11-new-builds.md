@@ -7,34 +7,7 @@ tags: project
 ---
 A multidisciplinary hackathon that combines intensive project development with new compelling team-drafting mechanics.
 
-{% include videos.html 
-   folder="new-builds"
-   file="new builds.mp4"
-   autoplay=true 
-   loop=true %}
-
-{% include videos.html 
-   folder="new-builds"
-   file="new builds ring.mp4"
-   autoplay=true 
-   loop=true %}
-
-{% include photos.html folder="new-builds" images="new builds (1).jpg,new builds (2).jpg"  %}
-
-{% include photos.html 
-   folder="new-builds"
-   file="new builds (1).jpg"
-   autoplay=true 
-   loop=true %}
-
-{% include photos.html 
-   folder="new-builds"
-   file="new builds (2).jpg"
-   autoplay=true 
-   loop=true %}
-
-{% include photos.html 
-   folder="new-builds"
-   file="new builds (3).jpg"
-   autoplay=true 
-   loop=true %}
+{% include media.html 
+   folder="new-builds" 
+   media="new builds.mp4,new builds ring.mp4,new builds (1).jpg,new builds (2).jpg,new builds (3).jpg" 
+   layout="column" %}
