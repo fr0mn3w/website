@@ -6,14 +6,14 @@
            preload="metadata"
            {% if include.autoplay %}autoplay muted{% endif %}
            {% if include.loop %}loop{% endif %}
-           {% if include.poster %}poster="/assets/videos/thumbnails/{{ include.poster }}"{% endif %}>
+           {% if include.poster %}poster="/assets/{{ include.folder }}/{{ include.poster }}"{% endif %}>
       
       <!-- Simple, direct path to video -->
-      <source src="/assets/videos/{{ include.file }}" type="video/mp4">
+      <source src="/assets/{{ include.folder }}/{{ include.file }}" type="video/mp4">
       
       <!-- Fallback text -->
       Your browser does not support the video tag. 
-      <a href="/assets/videos/{{ include.file }}">Download the video</a>.
+      <a href="/assets/{{ include.folder }}/{{ include.file }}">Download the video</a>.
     </video>
     
     {% if include.caption %}
