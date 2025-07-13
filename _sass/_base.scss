@@ -251,7 +251,7 @@ mark {
       height: auto;
       border-radius: var(--border-radius);
       display: block;
-      max-width: 600px; // Same max width for both photos and videos
+      max-width: 600px;
     }
     
     .media-caption {
@@ -272,6 +272,47 @@ mark {
     
     .media-item {
       margin-bottom: 0;
+      
+      img, video {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+    
+    // Fixed width options
+    &.width-400 {
+      width: 400px;
+      margin: 2rem auto;
+    }
+    
+    &.width-500 {
+      width: 500px;
+      margin: 2rem auto;
+    }
+    
+    &.width-600 {
+      width: 600px;
+      margin: 2rem auto;
+    }
+    
+    &.width-800 {
+      width: 800px;
+      margin: 2rem auto;
+    }
+    
+    // Responsive behavior for fixed widths
+    @media (max-width: 900px) {
+      &.width-800 {
+        width: 90%;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      &.width-400, &.width-500, &.width-600, &.width-800 {
+        width: 100%;
+        margin: 2rem 0;
+      }
     }
   }
   
@@ -281,10 +322,11 @@ mark {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     
-    // In grid layouts, override max-width so items fill the grid
     .media-item {
       img, video {
-        max-width: 100%; // Fill the grid cell completely
+        max-width: 100%;
+        height: 250px;
+        object-fit: cover;
       }
       
       .media-caption {
@@ -294,15 +336,22 @@ mark {
     
     @media (max-width: 1024px) {
       grid-template-columns: 1fr 1fr;
+      
+      .media-item {
+        img, video {
+          height: 300px;
+        }
+      }
     }
     
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
       
-      // On mobile, restore the max-width for readability
       .media-item {
         img, video {
           max-width: 600px;
+          height: auto;
+          object-fit: contain;
         }
       }
     }
@@ -316,7 +365,9 @@ mark {
     
     .media-item {
       img, video {
-        max-width: 100%; // Fill grid cells
+        max-width: 100%;
+        height: 250px;
+        object-fit: cover;
       }
       
       .media-caption {
@@ -326,6 +377,13 @@ mark {
     
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
+      
+      .media-item {
+        img, video {
+          height: auto;
+          object-fit: contain;
+        }
+      }
     }
   }
   
@@ -337,7 +395,9 @@ mark {
     
     .media-item {
       img, video {
-        max-width: 100%; // Fill grid cells
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
       }
       
       .media-caption {
@@ -347,6 +407,13 @@ mark {
     
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
+      
+      .media-item {
+        img, video {
+          height: auto;
+          object-fit: contain;
+        }
+      }
     }
   }
 }
