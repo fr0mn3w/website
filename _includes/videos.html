@@ -2,15 +2,14 @@
 {% if include.file %}
   <!-- Self-hosted video -->
   <div class="video-container">
-    <video controls 
+    <video {% unless include.no_controls %}controls{% endunless %}
            preload="metadata"
-           {% if include.poster %}poster="/assets/videos/thumbnails/{{ include.poster }}"{% endif %}
-           {% if include.width %}style="max-width: {{ include.width }}"{% endif %}>
+           {% if include.autoplay %}autoplay muted{% endif %}
+           {% if include.loop %}loop{% endif %}
+           {% if include.poster %}poster="/assets/videos/thumbnails/{{ include.poster }}"{% endif %}>
       
-      <!-- Multiple formats for better browser support -->
-      {% assign video_name = include.file | split: '.' | first %}
-      <source src="/assets/videos/{{ video_name }}.mp4" type="video/mp4">
-      <source src="/assets/videos/{{ video_name }}.webm" type="video/webm">
+      <!-- Simple, direct path to video -->
+      <source src="/assets/videos/{{ include.file }}" type="video/mp4">
       
       <!-- Fallback text -->
       Your browser does not support the video tag. 
