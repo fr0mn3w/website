@@ -15,6 +15,11 @@ body {
   -ms-text-size-adjust: 100%;
 }
 
+// Light/dark mode handling
+html { 
+  background: var(--body-bg); 
+}
+
 // Links
 a {
   color: var(--link-color);
@@ -29,6 +34,7 @@ a {
   }
 }
 
+// Images
 img {
   display: block;
   max-width: 100%;
@@ -36,6 +42,21 @@ img {
   border-radius: var(--border-radius);
 }
 
+.post img {
+  width: 100%;
+  height: auto;
+  max-width: min(500px, 100vw - 2rem);
+  margin: 2em 0;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .post img {
+    max-width: 400px;
+  }
+}
+
+// Tables
 table {
   margin-bottom: 1rem;
   width: 100%;
@@ -60,126 +81,24 @@ thead th {
   border-bottom-color: currentColor;
 }
 
+// Text highlighting
 mark {
   padding: .15rem;
   background-color: var(--yellow-100);
   border-radius: .125rem;
 }
 
-
-.post img {
-  width: 100%;  /* Fill container width */
-  height: auto; /* Maintain aspect ratio */
-  max-width: min(500px, 100vw - 2rem); /* Either 400px or full viewport width minus some margin */
-  margin: 2em 0; /* Center the images */
-  display: block;
+::selection {
+  background-color: var(--link-hover-color);
+  color: var(--body-bg);
 }
 
-/* Add this media query for larger screens */
-@media screen and (min-width: 768px) {
-  .post img {
-    max-width: 400px; /* Your original desired width */
-  }
+::-moz-selection {
+  background-color: var(--link-hover-color);
+  color: var(--body-bg);
 }
 
-// Add to your _sass/base.scss
-.video-container {
-  margin: 2rem 0;
-  width: 100%;
-  text-align: left;        // Left-align the container
-  
-  video {
-    width: 100%;           // Take full width of container
-    max-width: 600px;      // Set universal max width (adjust this value)
-    height: auto;          // Maintain aspect ratio
-    border-radius: var(--border-radius);
-    display: block;        // Block display for consistent sizing
-    margin: 0;             // Remove auto margin (was centering)
-  }
-  
-  .video-caption {
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    color: var(--gray-600);
-    font-style: italic;
-    text-align: left;      // Left-align caption too
-    max-width: 600px;      // Match video width
-  }
-  
-  // Responsive behavior
-  @media (max-width: 768px) {
-    video {
-      max-width: 100%;     // Full width on mobile
-    }
-    
-    .video-caption {
-      max-width: 100%;
-    }
-  }
-}
-
-// Add to your _sass/base.scss or create _sass/media.scss
-.media-group {
-  margin: 2rem 0;
-  
-  .media-item {
-    margin-bottom: 2rem;
-    
-    img, video {
-      width: 100%;
-      height: auto;
-      border-radius: var(--border-radius);
-      display: block;
-    }
-    
-    video {
-      max-width: 600px; // Match your video sizing
-    }
-    
-    .media-caption {
-      margin-top: 0.5rem;
-      font-size: 0.9rem;
-      color: var(--gray-600);
-      font-style: italic;
-      text-align: left;
-    }
-  }
-  
-  // Column layout (default - stacked vertically)
-  &.column {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    
-    .media-item {
-      margin-bottom: 0; // Remove since gap handles spacing
-    }
-  }
-  
-  // Grid layout
-  &.grid {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  // Side-by-side (2 columns)
-  &.side-by-side {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-    }
-  }
-}
-
-// Footnotes styles
+// Footnotes
 .footnotes {
   margin-top: 3rem;
   padding-top: 1rem;
@@ -197,17 +116,60 @@ mark {
   margin-bottom: 0;
 }
 
-::selection {
-  background-color: var(--link-hover-color); // Or any color you want
-  color: var(--body-bg); // Text color when selected
+// Video handling - YouTube/Vimeo embeds
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: var(--spacer);
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
-::-moz-selection { // Firefox needs its own declaration
-  background-color: var(--link-hover-color);
-  color: var(--body-bg);
+// Self-hosted videos
+.video-container {
+  margin: 2rem 0;
+  width: 100%;
+  text-align: left;
+  
+  video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: var(--border-radius);
+    display: block;
+    margin: 0;
+  }
+  
+  .video-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    font-style: italic;
+    text-align: left;
+    max-width: 600px;
+  }
+  
+  @media (max-width: 768px) {
+    video {
+      max-width: 100%;
+    }
+    
+    .video-caption {
+      max-width: 100%;
+    }
+  }
 }
 
-// Simple photo layouts
+// Photo layouts
 .photo-group {
   margin: 2rem 0;
   
@@ -238,7 +200,6 @@ mark {
       grid-template-columns: repeat(2, 1fr); // 4+ images in 2 columns
     }
     
-    // Mobile responsive
     @media (max-width: 768px) {
       grid-template-columns: 1fr !important;
     }
@@ -278,23 +239,78 @@ mark {
   }
 }
 
-//Video handling
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* This maintains 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin-bottom: var(--spacer);
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+// Mixed media layouts (photos + videos)
+.media-group {
+  margin: 2rem 0;
+  
+  .media-item {
+    margin-bottom: 2rem;
+    
+    img, video {
+      width: 100%;
+      height: auto;
+      border-radius: var(--border-radius);
+      display: block;
+    }
+    
+    video {
+      max-width: 600px;
+    }
+    
+    .media-caption {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--gray-600);
+      font-style: italic;
+      text-align: left;
+    }
+  }
+  
+  // Column layout (default - stacked vertically)
+  &.column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    .media-item {
+      margin-bottom: 0;
+    }
+  }
+  
+  // 3-column layout
+  &.three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    
+    @media (max-width: 1024px) {
+      grid-template-columns: 1fr 1fr;  // 2 columns on tablets
+    }
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;      // 1 column on mobile
+    }
+  }
+  
+  // Grid layout
+  &.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  // Side-by-side (2 columns)
+  &.side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
   }
 }
-
-// Light/dark mode handling
-html { background: var(--body-bg); }
