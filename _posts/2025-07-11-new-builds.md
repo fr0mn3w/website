@@ -19,6 +19,8 @@ A multidisciplinary hackathon that combines intensive project development with n
    autoplay=true 
    loop=true %}
 
+{% include photos.html folder="new-builds" images="new builds (1).jpg,new builds (2).jpg"  %}
+
 {% include photos.html 
    folder="new-builds"
    file="new builds (1).jpg"
