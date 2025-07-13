@@ -283,22 +283,22 @@ mark {
     // Fixed width options
     &.width-400 {
       width: 400px;
-      margin: 2rem auto;
+      margin: 2rem 0;
     }
     
     &.width-500 {
       width: 500px;
-      margin: 2rem auto;
+      margin: 2rem 0;
     }
     
     &.width-600 {
       width: 600px;
-      margin: 2rem auto;
+      margin: 2rem 0;
     }
     
     &.width-800 {
       width: 800px;
-      margin: 2rem auto;
+      margin: 2rem 0;
     }
     
     // Responsive behavior for fixed widths
