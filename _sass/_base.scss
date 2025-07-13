@@ -251,10 +251,7 @@ mark {
       height: auto;
       border-radius: var(--border-radius);
       display: block;
-    }
-    
-    video {
-      max-width: 600px;
+      max-width: 600px; // Same max width for both photos and videos
     }
     
     .media-caption {
@@ -263,6 +260,7 @@ mark {
       color: var(--gray-600);
       font-style: italic;
       text-align: left;
+      max-width: 600px;
     }
   }
   
@@ -283,12 +281,30 @@ mark {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     
+    // In grid layouts, override max-width so items fill the grid
+    .media-item {
+      img, video {
+        max-width: 100%; // Fill the grid cell completely
+      }
+      
+      .media-caption {
+        max-width: 100%;
+      }
+    }
+    
     @media (max-width: 1024px) {
-      grid-template-columns: 1fr 1fr;  // 2 columns on tablets
+      grid-template-columns: 1fr 1fr;
     }
     
     @media (max-width: 768px) {
-      grid-template-columns: 1fr;      // 1 column on mobile
+      grid-template-columns: 1fr;
+      
+      // On mobile, restore the max-width for readability
+      .media-item {
+        img, video {
+          max-width: 600px;
+        }
+      }
     }
   }
   
@@ -297,6 +313,16 @@ mark {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    .media-item {
+      img, video {
+        max-width: 100%; // Fill grid cells
+      }
+      
+      .media-caption {
+        max-width: 100%;
+      }
+    }
     
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
@@ -308,6 +334,16 @@ mark {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    
+    .media-item {
+      img, video {
+        max-width: 100%; // Fill grid cells
+      }
+      
+      .media-caption {
+        max-width: 100%;
+      }
+    }
     
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
