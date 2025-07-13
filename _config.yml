@@ -1,10 +1,10 @@
 # Setup
-title: "Tommy Trinh"                   # The title of your site
-description: "天"   # A brief description of your site
-url: "https://tommytrinh.me"              # Your site's full URL
+title: "New"                   # The title of your site
+description: "A design and research lab based out of the West End of Toronto."   # A brief description of your site
+url: ""              # Your site's full URL
 baseurl: ""                                # Leave empty if your site is at root
 image: "/assets/images/garden.jpg"          # Default share image path
-author: "Tommy Trinh"                        # Your name
+author: "New"                        # Your name
 
 # Assets
 sass:
@@ -13,9 +13,9 @@ sass:
 
 # About/contact
 author:
-  name: "Tommy Trinh"
-  url: "https://twitter.com/tommytrxnh"
-  email: "tommytrinh1@gmail.com"
+  name: "New"
+  url: ""
+  email: "email@newsystems.ca"
 
 # Custom vars
 version: 3.0.0
@@ -33,10 +33,3 @@ kramdown:
 
 #Slug adjustment
 permalink: /:title/
-
-# Add these RSS-specific settings
-feed:
-  title: "Tommy Trinh"
-  description: "天"
-  posts_limit: 10  # Number of posts to include in the feed
-  future: true
