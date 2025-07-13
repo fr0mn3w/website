@@ -93,7 +93,6 @@ mark {
     max-width: 600px;      // Set universal max width (adjust this value)
     height: auto;          // Maintain aspect ratio
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     display: block;        // Block display for consistent sizing
     margin: 0;             // Remove auto margin (was centering)
   }
