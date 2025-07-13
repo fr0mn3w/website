@@ -171,10 +171,16 @@
   },
   "active": "c32598731e67ac58",
   "lastOpenFiles": [
-    "_posts/2025-07-11-new-builds.md",
-    "_posts/2025-07-11-brampton.md",
-    "_posts/2025-07-11-new-demos.md",
+    "assets/brampton/brampton.mp4",
+    "assets/brampton.mp4",
+    "assets/brampton",
+    "assets/rampton",
+    "assets/untitled folder",
+    "_includes/videos.html",
     "_posts/2025-07-11-the-other-stuff.md",
+    "_posts/2025-07-11-brampton.md",
+    "_posts/2025-07-11-new-builds.md",
+    "_posts/2025-07-11-new-demos.md",
     "_posts/2025-07-11-new-wip.md",
     "_posts/2025-07-11-new-stadium.md",
     "_site/styles.css.map",
@@ -184,11 +190,6 @@
     "_site/assets/new-builds",
     "assets/new-builds",
     "_includes/post-gallery.html",
-    "_site/new-wip/index.html",
-    "_site/new-wip",
-    "_site/new-builds-1/index.html",
-    "_site/new-builds-1",
-    "_site/projects/index.html",
     "Welcome.md",
     "_site/assets/aesthetics-of-climbing/rock9.jpg",
     "_site/assets/aesthetics-of-climbing/rock8.jpg",
@@ -215,7 +216,6 @@
     "_posts/2025-04-12-hands.md",
     "_posts/2025-04-09-consuming.md",
     "_posts/2025-04-09-articulation.md",
-    "_posts/2025-04-06-yesterday.md",
-    "_posts/2025-04-05-sketching.md"
+    "_posts/2025-04-06-yesterday.md"
   ]
 }
