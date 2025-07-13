@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-07-11-new-wip.md",
+                "file": "_posts/2025-07-11-new-stadium.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-11-new-wip"
+              "title": "2025-07-11-new-stadium"
             }
           }
         ]
@@ -171,9 +171,9 @@
   },
   "active": "c32598731e67ac58",
   "lastOpenFiles": [
+    "_posts/2025-07-11-new-wip.md",
     "assets/new-wip/new wip 2 (1).jpg",
     "_posts/2025-07-11-new-demos.md",
-    "_posts/2025-07-11-new-wip.md",
     "_posts/2025-07-11-new-stadium.md",
     "_posts/2025-07-11-new-builds.md",
     "_includes/media.html",
@@ -198,7 +198,6 @@
     "_site/assets/aesthetics-of-climbing/rock5.webp",
     "_site/assets/aesthetics-of-climbing/rock4.webp",
     "_site/assets/aesthetics-of-climbing/rock3.jpg",
-    "_site/assets/aesthetics-of-climbing/rock2.jpg",
     "_site/Welcome.md",
     "README.md",
     "LICENSE.md",
