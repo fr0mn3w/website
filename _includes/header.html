@@ -9,8 +9,8 @@
     <script>
     document.addEventListener('DOMContentLoaded', () => {
       const themeToggle = document.getElementById('theme-toggle');
-      const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: light)');
-      
+      const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+          
       function setTheme(theme) {
         document.documentElement.setAttribute('data-theme', theme);
         localStorage.setItem('theme', theme);
