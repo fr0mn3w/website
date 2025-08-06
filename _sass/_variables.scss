@@ -33,11 +33,11 @@
   --body-font-size: 18px;
   --body-line-height: 1.5;
   
-  // Light theme (default)
+  // Light theme only (fixed values)
   --body-color: #4C4C4C;
-  --body-bg: #ffffff;  // Customize this for your light theme background
+  --body-bg: #ffffff;
   --heading-color: #000000;
-  --link-color:#4C4C4C;
+  --link-color: #4C4C4C;
   --link-hover-color: #B4B4B4;
   --border-color: #4C4C4C;
   --code-bg: var(--gray-300);
@@ -52,12 +52,5 @@
   --spacer-3: calc(var(--spacer) * 3);
 }
 
-:root[data-theme="dark"] {
-  --body-color: #F9F9F9;
-    --body-bg: #1a1a1a;
-    --heading-color: #FFFFFF;
-    --link-color:#F9F9F9;
-    --link-hover-color: #B4B4B4;
-    --border-color: #F9F9F9;
-    --code-bg: var(--gray-900);
-}
+// Remove this entire section:
+// :root[data-theme="light"] { ... }
