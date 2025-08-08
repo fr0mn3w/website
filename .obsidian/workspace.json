@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-08-07-Test.md",
+                "file": "_posts/Test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-07-Test"
+              "title": "Test"
             }
           }
         ]
@@ -169,11 +169,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0043157489a1fc5a",
+  "active": "c32598731e67ac58",
   "lastOpenFiles": [
+    "_templates/post.md",
+    "_posts/Test.md",
+    "_posts/2025-08-07-Test.md",
     "archive.html",
     "journal.html",
-    "_posts/2025-08-07-Test.md",
     "_posts/2025-07-11-new-stadium.md",
     "_posts/2025-07-11-new-wip.md",
     "assets/new-wip/new wip 2 (1).jpg",
@@ -188,7 +190,6 @@
     "assets/new-wip/new wip 1 lineup.mp4",
     "assets/new-builds/new builds.mp4",
     "assets/new wip 2.mp4",
-    "assets/new wip 1 lineup.mp4",
     "_posts/2025-07-11-the-other-stuff.md",
     "assets/new-builds/11725.jpeg",
     "_site/assets/new-builds/11725.jpeg",
@@ -203,7 +204,6 @@
     "_site/Welcome.md",
     "README.md",
     "LICENSE.md",
-    "_templates/post.md",
     "_site/LICENSE.md",
     "_site/README.md",
     "_posts/2025-07-11-25.md",
