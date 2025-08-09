@@ -3,14 +3,14 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 70%;
+  max-width: 80%;
   padding-left: calc(var(--spacer-2) + 4rem);  // Add extra left padding
   padding-right: var(--spacer-2);
   margin-left: 0;
   margin-right: auto;
   
   @media (max-width: 950px) {
-    max-width: 90%;
+    max-width: 80%;
     padding-left: calc(var(--spacer) + 1rem);   // Less extra padding on mobile
     padding-right: var(--spacer);
   }
