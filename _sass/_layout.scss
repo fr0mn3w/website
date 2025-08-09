@@ -30,6 +30,13 @@
   align-items: baseline;           // Keeps text aligned nicely
   flex-wrap: nowrap;              // Prevents wrapping
   gap: 2rem;                      // Space between title and nav
+
+    // Make header wider than main content
+    max-width: 85%;                 // Wider than container's 70%
+    padding-left: calc(var(--spacer-2) + 4rem);  // Match container padding
+    padding-right: var(--spacer-2);
+    margin-left: 0;
+    margin-right: auto;
   
   @media (max-width: 768px) {
     flex-direction: column;       // Stack vertically on mobile
