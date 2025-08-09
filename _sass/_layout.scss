@@ -68,6 +68,8 @@
     align-items: flex-start;      // Left-align the links
     gap: 0.75rem;
     white-space: normal;          // Allow wrapping on mobile if needed
+    text-align: left;             // Force text alignment
+    width: 100%;                  // Take full width
   }
 }
 
@@ -75,6 +77,26 @@
   color: var(--body-color);
   text-decoration: none;
   flex-shrink: 0;                 // Prevent individual links from shrinking
+  
+  @media (max-width: 950px) {
+    align-self: flex-start;       // Force each link to left-align
+    text-align: left;             // Force text left
+  }
+  
+  &:hover {
+    color: var(--link-hover-color);
+  }
+}
+
+.nav-item {
+  color: var(--body-color);
+  text-decoration: none;
+  flex-shrink: 0;                 // Prevent individual links from shrinking
+  
+  @media (max-width: 950px) {
+    align-self: flex-start;       // Force each link to left-align
+    text-align: left;             // Force text left
+  }
   
   &:hover {
     color: var(--link-hover-color);
