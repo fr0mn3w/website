@@ -65,6 +65,7 @@
   
   @media (max-width: 950px) {
     flex-direction: column;       // Stack links vertically on mobile
+    align-items: flex-start;      // Left-align the links
     gap: 0.75rem;
     white-space: normal;          // Allow wrapping on mobile if needed
   }
