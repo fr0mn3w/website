@@ -3,11 +3,17 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 45rem;
-  padding-left: var(--spacer-2);
+  max-width: 70%;
+  padding-left: calc(var(--spacer-2) + 4rem);  // Add extra left padding
   padding-right: var(--spacer-2);
-  margin-left:  auto;
+  margin-left: 0;
   margin-right: auto;
+  
+  @media (max-width: 768px) {
+    max-width: 90%;
+    padding-left: calc(var(--spacer) + 1rem);   // Less extra padding on mobile
+    padding-right: var(--spacer);
+  }
 }
 
 :root {
@@ -19,17 +25,40 @@
 // Header styles
 .masthead {
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;  // Title on left, nav on right
+  align-items: baseline;           // Keeps text aligned nicely
+  flex-wrap: nowrap;              // Prevents wrapping
+  gap: 2rem;                      // Space between title and nav
+  
+  @media (max-width: 768px) {
+    flex-direction: column;       // Stack vertically on mobile
+    align-items: flex-start;      // Left-align everything
+    gap: 1rem;                    // Smaller gap on mobile
+  }
 }
 
 .masthead-title {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;               // Remove bottom margin since flex gap handles spacing
+  flex-shrink: 0;                 // Title won't get compressed
   
   a {
     text-decoration: none;
     color: var(--body-color);
   }
 }
+
+// Navigation styles
+.masthead-nav {
+  flex-shrink: 0;                 // Nav won't get compressed either
+  white-space: nowrap;            // Keeps nav items on one line
+  
+  @media (max-width: 768px) {
+    white-space: normal;          // Allow wrapping on mobile if needed
+  }
+}
+
 // Footer styles
 footer {
   margin-top: calc(var(--spacer-3) * 2);
@@ -38,24 +67,40 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;    // Left-align footer content
   align-items: center;
+  gap: 2rem;                      // Space between copyright and social links
+  width: 100%;
+  flex-wrap: nowrap;              // Prevent wrapping
+  
+  @media (max-width: 768px) {
+    gap: 1rem;                    // Smaller gap on mobile
+    font-size: 0.9rem;            // Slightly smaller text
+  }
 }
 
-.footer-left {
+.footer-right {
   display: flex;
   align-items: baseline;
   gap: 0.25rem;
+  flex-shrink: 0;                 // Prevent shrinking
 }
 
 .social-links {
   display: flex;
   gap: 1rem;
+  flex-shrink: 0;                 // Prevent social links from shrinking
+  white-space: nowrap;            // Keep text on one line
+  
+  @media (max-width: 768px) {
+    gap: 0.75rem;                 // Smaller gaps between links
+  }
 }
 
 .social-link {
   color: var(--body-color);
   text-decoration: none;
+  flex-shrink: 0;                 // Prevent individual links from shrinking
   
   &:hover {
     color: var(--link-hover-color);
@@ -63,14 +108,19 @@ footer {
 }
 
 .footer-copyright {
-  font-size: 0.8rem;
-  line-height: 1;
+  font-size: 1.25rem;
+  line-height: 0.95;
 }
 
 // Post list styles
 .post-list-container {
-  max-width: 48rem;
-  margin: 0 auto;
+  max-width: 75%;              // Match main container width
+  margin: 0;                   // Left-align (remove centering)
+  margin-right: auto;          // Auto right margin
+  
+  @media (max-width: 768px) {
+    max-width: 90%;            // Match container responsive behavior
+  }
 }
 
 .post-item {
