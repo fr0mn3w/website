@@ -9,7 +9,7 @@
   margin-left: 0;
   margin-right: auto;
   
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
     max-width: 90%;
     padding-left: calc(var(--spacer) + 1rem);   // Less extra padding on mobile
     padding-right: var(--spacer);
@@ -31,7 +31,7 @@
   flex-wrap: nowrap;              // Prevents wrapping
   gap: 2rem;                      // Space between title and nav
   
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
     flex-direction: column;       // Stack vertically on mobile
     align-items: flex-start;      // Left-align everything
     gap: 1rem;                    // Smaller gap on mobile
@@ -54,7 +54,7 @@
   flex-shrink: 0;                 // Nav won't get compressed either
   white-space: nowrap;            // Keeps nav items on one line
   
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
     white-space: normal;          // Allow wrapping on mobile if needed
   }
 }
@@ -73,7 +73,7 @@ footer {
   width: 100%;
   flex-wrap: nowrap;              // Prevent wrapping
   
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
     gap: 1rem;                    // Smaller gap on mobile
     font-size: 0.9rem;            // Slightly smaller text
   }
@@ -92,7 +92,7 @@ footer {
   flex-shrink: 0;                 // Prevent social links from shrinking
   white-space: nowrap;            // Keep text on one line
   
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
     gap: 0.75rem;                 // Smaller gaps between links
   }
 }
@@ -118,7 +118,7 @@ footer {
   margin: 0;                   // Left-align (remove centering)
   margin-right: auto;          // Auto right margin
   
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
     max-width: 90%;            // Match container responsive behavior
   }
 }
