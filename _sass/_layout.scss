@@ -88,22 +88,7 @@
   }
 }
 
-.nav-item {
-  color: var(--body-color);
-  text-decoration: none;
-  flex-shrink: 0;                 // Prevent individual links from shrinking
-  
-  @media (max-width: 950px) {
-    align-self: flex-start;       // Force each link to left-align
-    text-align: left;             // Force text left
-  }
-  
-  &:hover {
-    color: var(--link-hover-color);
-  }
-}
-
-// Footer styles
+// Image styles
 footer {
   margin-top: calc(var(--spacer-3) * 2);
   margin-bottom: calc(var(--spacer-3) * 2);
@@ -154,6 +139,20 @@ footer {
 .footer-copyright {
   font-size: 1.25rem;
   line-height: 0.95;
+}
+
+// Image styles
+.main-image {
+  max-width: 60%;              // Takes up 60% of container width
+  width: 100%;                 // Responsive within max-width
+  height: auto;                // Maintains aspect ratio
+  margin: 2rem 0;              // Vertical spacing above and below
+  display: block;              // Ensures proper spacing
+  
+  @media (max-width: 950px) {
+    max-width: 80%;            // Larger percentage on mobile
+    margin: 1.5rem 0;          // Less vertical spacing on mobile
+  }
 }
 
 // Post list styles
