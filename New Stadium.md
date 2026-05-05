@@ -6,7 +6,6 @@ See our opening hours, events, and programming below.
 
 # Events
 
-
 Wednesday May 6: [Artifacts ](https://luma.com/bnu9x2i8)
 Thursday May 7: [Open House](https://luma.com/stadium175)
 Friday May 8: [Open House](https://luma.com/stadium176)
