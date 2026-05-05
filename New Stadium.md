@@ -27,4 +27,4 @@ Field research, field studies, or fieldwork is the collection of raw data outsid
 
 A field report is the talk a researcher gives after; “coming back from the field, where they share what was observed firsthand among real people in their natural setting.”
 
-If you have a body of work that you would like to facilitate a field report on, [please submit here](https://fieldreports.newsystems.ca/)
+If you have a body of work to facilitate a field report on, [please submit here](https://fieldreports.newsystems.ca/)
