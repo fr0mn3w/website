@@ -23,3 +23,11 @@ We want to use New Stadium as a space to generate outsized impact. We are always
 What do you want to learn right now? What do you want to see more of? What environment do you want to immerse yourself in?
 
 If you have an event or project idea that we can help bring to life, [please submit here](https://brief.newsystems.ca)
+
+# Field Reports
+
+Field research, field studies, or fieldwork is the collection of raw data outside a laboratory, library, or workplace setting. The approaches and methods used in field research vary across disciplines. 
+
+A field report is the talk a researcher gives after; “coming back from the field, where they share what was observed firsthand among real people in their natural setting.”
+
+If you have a body of work that you would like to facilitate a field report on, [please submit here](https://fieldreports.newsystems.ca/)
