@@ -10,7 +10,7 @@ See our opening hours, events, and programming below.
 Tuesday May 19: [Show and Tell: Physical Computing](https://luma.com/ed400amh)
 Wednesday May 20: [Open House](https://luma.com/stadium178), [Blank Disc Club](https://luma.com/zgqx1p03)
 Thursday May 21: [Poetics of Scent](https://luma.com/ho6eehtt)
-Friday May 22: [Grad Showcase](https://luma.com/6dmg8ykm)
+Friday May 22: [Grad Showcase ](https://luma.com/xonx2jnr)
 Saturday May 23: [Teenbuilders Club](https://luma.com/g54wxzt1?lm_source=embed)
 Sunday May 24: [Not a Knitting Club ](https://luma.com/2fkzt1ub)
 
