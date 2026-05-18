@@ -7,10 +7,12 @@ See our opening hours, events, and programming below.
 # Events
 
 
-Tuesday May 12: [Don't Quit Your Day Job](https://luma.com/xylyaipx)
-Wednesday May 13: [Open House](https://luma.com/stadium177), [Collective Study](https://luma.com/khm0lzww)
-Thursday May 14: [Play with Poetry](https://www.eventbrite.com/e/erhua-playground-x-wish-u-were-here-play-with-poetry-by-mina-wang-zhou-tickets-1987206808057)
-Saturday May 16: [Official Unofficial Toronto League ](https://luma.com/s5xkqrru)
+Tuesday May 19: [Show and Tell: Physical Computing](https://luma.com/ed400amh)
+Wednesday May 20: [Open House](https://luma.com/stadium178), [Blank Disc Club](https://luma.com/zgqx1p03)
+Thursday May 21: [Poetics of Scent](https://luma.com/ho6eehtt)
+Friday May 22: [Grad Showcase](https://luma.com/6dmg8ykm)
+Saturday May 23: [Teenbuilders Club](https://luma.com/g54wxzt1?lm_source=embed)
+Sunday May 24: [Not a Knitting Club ](https://luma.com/2fkzt1ub)
 
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
