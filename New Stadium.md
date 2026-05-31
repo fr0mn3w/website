@@ -6,13 +6,12 @@ See our opening hours, events, and programming below.
 
 # Events
 
-
-Tuesday May 19: [Show and Tell: Physical Computing](https://luma.com/ed400amh)
-Wednesday May 20:[Blank Disc Club](https://luma.com/zgqx1p03)
-Thursday May 21:  [Open House](https://luma.com/stadium178) [Poetics of Scent](https://luma.com/ho6eehtt)
-Friday May 22: [Grad Showcase ](https://luma.com/xonx2jnr)
-Saturday May 23: [Teenbuilders Club](https://luma.com/g54wxzt1?lm_source=embed)
-Sunday May 24: [Not a Knitting Club ](https://luma.com/2fkzt1ub)
+Monday June 1: [Catalyst](https://ambition.inc/)
+Tuesday June 2: [Livecoding Workshop](https://luma.com/dk2um9in)
+Wednesday June 3: [Catalyst](https://ambition.inc/)
+Thursday June 4: [Open House](https:luma.com/stadium183), [Introduction to Writing GPU Kernels ](https://luma.com/09b9k5qx)
+Friday June 5: [Open House](https:luma/com/stadium184), [Catalyst](https://ambition.inc/)
+Saturday June 6: [Tomato Presents: Will it Grow?](https://luma.com/cqncyxtd)
 
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
