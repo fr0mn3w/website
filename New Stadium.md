@@ -6,12 +6,11 @@ See our opening hours, events, and programming below.
 
 # Events
 
-Monday June 1: [Catalyst](https://ambition.inc/)
-Tuesday June 2: [Livecoding Workshop](https://luma.com/dk2um9in)
-Wednesday June 3: [Catalyst](https://ambition.inc/)
-Thursday June 4: [Open House](https:luma.com/stadium183), [Introduction to Writing GPU Kernels ](https://luma.com/09b9k5qx)
-Friday June 5: [Open House](https:luma/com/stadium184), [Catalyst](https://ambition.inc/)
-Saturday June 6: [Tomato Presents: Will it Grow?](https://luma.com/cqncyxtd)
+Monday June 8: WWDC Live Viewing,  [Catalyst](https://ambition.inc/)
+Wednesday June 10: [Open House](https://luma.com/stadium185), [Catalyst](https://ambition.inc/)
+Thursday June 11: [(Un)Told: Book launch ](https://luma.com/podsnqxk)
+Friday June 12: [Open House](https:luma/com/stadium186), [Catalyst](https://ambition.inc/)
+Saturday June 13: [Future Artifacts](https://luma.com/wb85wun8)
 
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
