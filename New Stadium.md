@@ -6,12 +6,10 @@ See our opening hours, events, and programming below.
 
 # Events
 
-Monday June 8: WWDC Live Viewing,  [Catalyst](https://ambition.inc/)
-Wednesday June 10: [Open House](https://luma.com/stadium185), [Catalyst](https://ambition.inc/)
-Thursday June 11: [(Un)Told: Book launch ](https://luma.com/podsnqxk)
-Friday June 12: [Open House](https:luma/com/stadium186), [Catalyst](https://ambition.inc/)
-Saturday June 13: [Future Artifacts](https://luma.com/wb85wun8)
-
+Monday June 15: [Meraki](https://luma.com/lg6eq22b)
+Tuesday June 16: [Open House](https://luma.com/stadium187), [Impressions](https://luma.com/9febn7nw)
+Wednesday June 17: [Open House](https://luma.com/stadium188)
+Thursday June 18: [Erhua x Wish U Were Here ]()https://www.eventbrite.com/e/erhua-playground-x-wish-u-were-here-poking-fun-handpoked-tattoos-w-diana-tickets-1991412248643
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Call for Briefs
