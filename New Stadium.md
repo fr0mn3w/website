@@ -6,10 +6,11 @@ See our opening hours, events, and programming below.
 
 # Events
 
-Monday June 15: [Meraki](https://luma.com/lg6eq22b)
-Tuesday June 16: [Open House](https://luma.com/stadium187), [Impressions](https://luma.com/9febn7nw)
-Wednesday June 17: [Open House](https://luma.com/stadium188)
-Thursday June 18: [Erhua x Wish U Were Here ]()https://www.eventbrite.com/e/erhua-playground-x-wish-u-were-here-poking-fun-handpoked-tattoos-w-diana-tickets-1991412248643
+Monday June 22: [Women in Tech Build-a-Thon](https://luma.com/7don659g)
+Tuesday June 23: [Open House](https://luma.com/stadium189), [Intro to Interactive Video with Touch Designer ](https://luma.com/4crly7qn)
+Wednesday June 24: [Open House](https://luma.com/stadium190), [Scan_&_Print_Workshop_v1](https://luma.com/jwye0w58)
+Thursday June 25: [Tlisa Lee Flora: A Living Offering - Gallery Night](https://luma.com/7j0pbv4q)
+Friday June 26: [SKIZA 002](https://luma.com/k0w533v0)
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Call for Briefs
