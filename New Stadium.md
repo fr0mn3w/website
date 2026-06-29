@@ -6,11 +6,11 @@ See our opening hours, events, and programming below.
 
 # Events
 
-Monday June 22: [Women in Tech Build-a-Thon](https://luma.com/7don659g)
-Tuesday June 23: [Open House](https://luma.com/stadium189), [Intro to Interactive Video with Touch Designer ](https://luma.com/4crly7qn)
-Wednesday June 24: [Open House](https://luma.com/stadium190), [Scan_&_Print_Workshop_v1](https://luma.com/jwye0w58)
-Thursday June 25: [Tlisa Lee Flora: A Living Offering - Gallery Night](https://luma.com/7j0pbv4q)
-Friday June 26: [SKIZA 002](https://luma.com/k0w533v0)
+Monday June 29: [Iterate ](https://luma.com/ajlp2p8w)
+Wednesday July 1: [Digital Bridges](https://www.ukaiprojects.com/all-programs/p/digital-bridges)
+Thursday July 2: [Open House](https://luma.com/stadium191)
+Friday July 3: [Open House](https://luma.com/stadium192)
+Saturday July 4: [Future Artifacts 002](https://luma.com/mnihuwvw)
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Call for Briefs
