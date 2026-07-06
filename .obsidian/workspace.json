@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -172,14 +174,15 @@
   },
   "active": "c32598731e67ac58",
   "lastOpenFiles": [
-    "2 External/Posts/Manhattan Project.md",
+    "New Builds.md",
+    "The Other Stuff.md",
     "New Stadium.md",
+    "New Studio.md",
+    "New Demos.md",
+    "about.md",
+    "2 External/Posts/Manhattan Project.md",
     "2 External/Posts",
     "2 External",
-    "about.md",
-    "The Other Stuff.md",
-    "New Demos.md",
-    "New Builds.md",
     "LOGO-B&W-SOLID.png",
     "README.md",
     "assets/newlogo.png",
@@ -216,7 +219,6 @@
     "_posts/2025-07-11-25.md",
     "_posts/2025-06-16-living-well.md",
     "_posts/2025-06-16-ideas.md",
-    "_posts/2025-06-16-climbing.md",
-    "_posts/2025-05-23-infinite-gameplay-loops.md"
+    "_posts/2025-06-16-climbing.md"
   ]
 }

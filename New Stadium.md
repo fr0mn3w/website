@@ -20,6 +20,6 @@ To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsy
 
 We want to use New Stadium as a space to generate outsized impact. We are always experimenting and learning. We are extremely grateful for our community.
 
-What do you want to learn right now? What do you want to see more of? What environment do you want to immerse yourself in?
+What do you want to learn right now? What do you want to see more of? What environment do you gwant to immerse yourself in?
 
-If you have an event or project idea that we can help bring to life, [please submit here](https://brief.newsystems.ca)
+If you have an event or project idea that you would like to host in the space, [please submit here](https://brief.newsystems.ca)
