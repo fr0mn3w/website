@@ -6,11 +6,10 @@ See our opening hours, events, and programming below.
 
 # Events
 
-Monday June 29: [Iterate ](https://luma.com/ajlp2p8w)
-Wednesday July 1: [Digital Bridges](https://www.ukaiprojects.com/all-programs/p/digital-bridges)
-Thursday July 2: [Open House](https://luma.com/stadium191)
-Friday July 3: [Open House](https://luma.com/stadium192)
-Saturday July 4: [Future Artifacts 002](https://luma.com/mnihuwvw)
+Monday July 6: [Meraki](https://luma.com/b0suepa0)
+Wednesday July 8: [Open House](https://luma.com/u6bjveuv), [Digital Bridges ](https://www.ukaiprojects.com/all-programs/p/digital-bridges)
+Friday July 10: [Soft Landing Opening Night](https://www.instagram.com/p/DaeTjguAG1z/?img_index=1)
+Saturday July 11: [The Poetics of Scent](https://luma.com/new-eja8) 
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Call for Briefs
