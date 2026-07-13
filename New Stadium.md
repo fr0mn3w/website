@@ -6,10 +6,13 @@ See our opening hours, events, and programming below.
 
 # Events
 
-Monday July 6: [Meraki](https://luma.com/b0suepa0)
-Wednesday July 8: [Open House](https://luma.com/stadium193), [Digital Bridges ](https://www.ukaiprojects.com/all-programs/p/digital-bridges)
-Friday July 10: [Soft Landing Opening Night](https://www.instagram.com/p/DaeTjguAG1z/?img_index=1)
-Saturday July 11: [The Poetics of Scent](https://luma.com/new-eja8) 
+Monday July 13: [Catalyst Documentary Screening ](https://luma.com/w2zj6oll)
+Tuesday July 14th: [Future Artifacts](https://luma.com/new-q87y)
+Wednesday July 15th: [Sample Chief Listening Lounge](https://luma.com/new-5fye)
+Thursday July 16th: [Pairs ](https://luma.com/new-q32y)
+Friday July 17th: [Mitsu Floral Workshop](https://luma.com/new-gbni)
+July 18th: [Slow Fire](https://luma.com/new-fypo), [Weathering ](https://luma.com/new-ptnv)
+
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Call for Briefs
