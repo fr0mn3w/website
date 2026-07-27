@@ -6,11 +6,9 @@ See our opening hours, events, and programming below.
 
 # Events
 
-Tuesday July 21: [Show & Tell: Creative Coding ](https://luma.com/y4rc7fis)
-Wednesday July 22: [Open House](https://luma.com/stadium194), [Digital Bridges](https://www.ukaiprojects.com/all-programs/p/digital-bridges)
-Thursday July 23: [Open House](https://luma.com/stadium195), [The New Frontier of Mapping ](https://luma.com/e4i2butn)
-Saturday July 25: [TouchDesigner 101](https://www.tickettailor.com/events/softlaunch/2299646), [Digital Bridges Showcase ](https://www.ukaiprojects.com/all-programs/p/digital-bridges)
-Sunday July 26 [TouchDesigner 101 ](https://www.tickettailor.com/events/softlaunch/2299646)
+Monday July 27: [Meraki](https://luma.com/iqt3hwrs)
+Wednesday July 29: [Open House](https://luma.com/stadium196), [Makerslounge](https://luma.com/8evmx7bi)
+Thursday July 30: [Open House ](https://luma.com/stadium197)
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Call for Briefs
