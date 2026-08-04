@@ -6,9 +6,11 @@ See our opening hours, events, and programming below.
 
 # Events
 
-Monday July 27: [Meraki](https://luma.com/iqt3hwrs)
-Wednesday July 29: [Open House](https://luma.com/stadium196), [Makerslounge](https://luma.com/8evmx7bi)
-Thursday July 30: [Open House ](https://luma.com/stadium197)
+Monday August 4: [Meraki](https://luma.com/v4hhvibk)
+Wednesday August 5: [Open House](https://luma.com/stadium198),
+Thursday August 6: [Open House ](https://luma.com/stadium199)
+Saturday August 8: [Ontario Rationality Weekend ](https://kwrationality.ca/2026retreat), [HTML Day](https://luma.com/8li9ghzh)
+Sunday August 9: [Ontario Rationality Weekend ](https://kwrationality.ca/2026retreat)
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Call for Briefs
