@@ -4,20 +4,26 @@ New Stadium is a collaborative third space in which we invite creatives, technol
 
 See our opening hours, events, and programming below.
 
-# Events
+# Weekly Events
 
-Monday August 4: [Meraki](https://luma.com/v4hhvibk)
-Wednesday August 5: [Open House](https://luma.com/stadium198),
-Thursday August 6: [Open House ](https://luma.com/stadium199)
-Saturday August 8: [Ontario Rationality Weekend ](https://kwrationality.ca/2026retreat), [HTML Day](https://luma.com/8li9ghzh)
-Sunday August 9: [Ontario Rationality Weekend ](https://kwrationality.ca/2026retreat)
-
+Monday August 10: [Meraki](https://luma.com/v4hhvibk)
+Tuesday August 11: [Impressions](https://luma.com/awpjx5ji)
+Friday August 14: [Open House ](https://luma.com/stadium200)
+Saturday August 15: Table Service 
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
+
+# Upcoming
+
+August 24: [Camp Serif](https://luma.com/hw5x0qyw)
+*a hands-on, 3-night creative workshop series designed to reset your visual practice. Over three evenings, we will bridge analog textures and digital workflows, culminating in an individual publication you’ve made yourself.*
+
+August 31: [Blogging for the soul](https://luma.com/hmwskaey)
+*​Blogging for the Soul is a 3 class (6-9pm on Aug 31, Sept 4 & 8) course for computer hobbyist's to learn a simple yet elegant technique for blogging with templates using 11ty & Netlify.*
 
 # Call for Briefs
 
 We want to use New Stadium as a space to generate outsized impact. We are always experimenting and learning. We are extremely grateful for our community.
 
-What do you want to learn right now? What do you want to see more of? What environment do you gwant to immerse yourself in?
+What do you want to learn right now? What do you want to see more of? What environment do you want to immerse yourself in?
 
-If you have an event or project idea that you would like to host in the space, [please submit here](https://brief.newsystems.ca)
+If you have an event or project idea that we can help bring to life, [please submit here](https://brief.newsystems.ca)
