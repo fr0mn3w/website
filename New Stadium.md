@@ -15,7 +15,7 @@ To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsy
 # Upcoming
 
 August 24: [Camp Serif](https://luma.com/hw5x0qyw)
-*a hands-on, 3-night creative workshop series designed to reset your visual practice. Over three evenings, we will bridge analog textures and digital workflows, culminating in an individual publication you’ve made yourself.*
+*A hands-on, 3-night creative workshop series designed to reset your visual practice. Over three evenings, we will bridge analog textures and digital workflows, culminating in an individual publication you’ve made yourself.*
 
 August 31: [Blogging for the soul](https://luma.com/hmwskaey)
 *​Blogging for the Soul is a 3 class (6-9pm on Aug 31, Sept 4 & 8) course for computer hobbyist's to learn a simple yet elegant technique for blogging with templates using 11ty & Netlify.*
