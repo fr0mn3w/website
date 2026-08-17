@@ -6,10 +6,12 @@ See our opening hours, events, and programming below.
 
 # Weekly Events
 
-Monday August 10: [Meraki](https://luma.com/v4hhvibk)
-Tuesday August 11: [Impressions](https://luma.com/awpjx5ji)
-Friday August 14: [Open House ](https://luma.com/stadium200)
-Saturday August 15: Table Service 
+Monday August 17: [Meraki](https://luma.com/g7w2ftmv)
+Tuesday August 18: [Don't Quit Your Day Job ](https://luma.com/2w8i2urh)
+Wednesday August 19: [Open House](https://luma.com/stadium201)
+Thursday August 20: [Art Club](https://luma.com/j717zu6o)
+Friday August 21: [IRID Semester Preview](https://luma.com/hcy0o9db)
+
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Upcoming
