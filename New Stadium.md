@@ -6,17 +6,16 @@ See our opening hours, events, and programming below.
 
 # Weekly Events
 
-Monday, August 17: [Meraki](https://luma.com/g7w2ftmv)
-Tuesday, August 18: [Don't Quit Your Day Job ](https://luma.com/2w8i2urh)
-Wednesday, August 19: [Open House](https://luma.com/stadium201)
-Thursday, August 20: [Art Club](https://luma.com/j717zu6o)
-Friday, August 21: [IRID Semester Preview](https://luma.com/hcy0o9db)
+Wednesday September 2: [Open House](https://luma.com/stadium203), [Teen Builders Club ](https://luma.com/6to8rqyk)
 
 To receive updates on our events, see our calendar on [Luma](https://lu.ma/newsystems)
 
 # Upcoming
 
-Monday, August 31: [Blogging for the soul](https://luma.com/hmwskaey)
+August 24: [Camp Serif](https://luma.com/hw5x0qyw)
+*A hands-on, 3-night creative workshop series designed to reset your visual practice. Over three evenings, we will bridge analog textures and digital workflows, culminating in an individual publication you’ve made yourself.*
+
+August 31: [Blogging for the soul](https://luma.com/hmwskaey)
 *​Blogging for the Soul is a 3 class (6-9pm on Aug 31, Sept 4 & 8) course for computer hobbyist's to learn a simple yet elegant technique for blogging with templates using 11ty & Netlify.*
 
 # Call for Briefs
